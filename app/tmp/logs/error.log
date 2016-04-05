@@ -1,0 +1,157 @@
+2016-04-06 02:16:32 Error: [InvalidArgumentException] Cannot open do.pdf !
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/fpdi_pdf_parser.php(64): pdf_parser->__construct('do.pdf')
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(123): fpdi_pdf_parser->__construct('do.pdf')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(101): FPDI->_getPdfParser('do.pdf')
+#3 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(11): FPDI->setSourceFile('do.pdf')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#8 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#9 [internal function]: BusinessesController->create_pdftk()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#13 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-06 02:17:03 Error: [Exception] Unable to find "startxref" keyword.
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/pdf_parser.php(195): pdf_parser->_findXref()
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdi_pdf_parser.php(64): pdf_parser->__construct('http://localhos...')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(123): fpdi_pdf_parser->__construct('http://localhos...')
+#3 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(101): FPDI->_getPdfParser('http://localhos...')
+#4 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(11): FPDI->setSourceFile('http://localhos...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#9 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#10 [internal function]: BusinessesController->create_pdftk()
+#11 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#14 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2016-04-06 02:19:12 Error: [Exception] Unable to find "startxref" keyword.
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/pdf_parser.php(195): pdf_parser->_findXref()
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdi_pdf_parser.php(64): pdf_parser->__construct('http://localhos...')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(123): fpdi_pdf_parser->__construct('http://localhos...')
+#3 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(101): FPDI->_getPdfParser('http://localhos...')
+#4 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(11): FPDI->setSourceFile('http://localhos...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#9 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#10 [internal function]: BusinessesController->create_pdftk()
+#11 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#14 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2016-04-06 02:20:22 Error: [Exception] Unable to find "startxref" keyword.
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/pdf_parser.php(195): pdf_parser->_findXref()
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdi_pdf_parser.php(64): pdf_parser->__construct('http://localhos...')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(123): fpdi_pdf_parser->__construct('http://localhos...')
+#3 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(101): FPDI->_getPdfParser('http://localhos...')
+#4 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(11): FPDI->setSourceFile('http://localhos...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#7 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#8 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#9 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#10 [internal function]: BusinessesController->create_pdftk()
+#11 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#14 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2016-04-06 02:20:37 Error: [InvalidArgumentException] Cannot open /assets/do.pdf !
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/fpdi_pdf_parser.php(64): pdf_parser->__construct('/assets/do.pdf')
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(123): fpdi_pdf_parser->__construct('/assets/do.pdf')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(101): FPDI->_getPdfParser('/assets/do.pdf')
+#3 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(11): FPDI->setSourceFile('/assets/do.pdf')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#8 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#9 [internal function]: BusinessesController->create_pdftk()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#13 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-06 02:20:47 Error: [InvalidArgumentException] Cannot open assets/do.pdf !
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/fpdi_pdf_parser.php(64): pdf_parser->__construct('assets/do.pdf')
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(123): fpdi_pdf_parser->__construct('assets/do.pdf')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(101): FPDI->_getPdfParser('assets/do.pdf')
+#3 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(11): FPDI->setSourceFile('assets/do.pdf')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#8 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#9 [internal function]: BusinessesController->create_pdftk()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#13 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-06 02:21:38 Error: Fatal Error (4): syntax error, unexpected 'do' (T_DO) in [/var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp, line 10]
+2016-04-06 02:21:38 Error: [FatalErrorException] syntax error, unexpected 'do' (T_DO)
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/html/c...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/html/c...', 10, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-04-06 02:21:53 Error: [InvalidArgumentException] Cannot open do.pdf !
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/fpdi_pdf_parser.php(64): pdf_parser->__construct('do.pdf')
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(123): fpdi_pdf_parser->__construct('do.pdf')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdi.php(101): FPDI->_getPdfParser('do.pdf')
+#3 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(10): FPDI->setSourceFile('do.pdf')
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#8 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#9 [internal function]: BusinessesController->create_pdftk()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#13 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2016-04-06 02:24:29 Error: [Exception] FPDF error: Can't open image file: logo.png
+Request URL: /cakephp/Businesses/create_pdftk
+Stack Trace:
+#0 /var/www/html/cakephp/app/Vendor/FPDF/fpdf.php(1261): FPDF->Error('Can't open imag...')
+#1 /var/www/html/cakephp/app/Vendor/FPDF/fpdf.php(885): FPDF->_parsepng('logo.png')
+#2 /var/www/html/cakephp/app/Vendor/FPDF/fpdf_tpl.php(336): FPDF->Image('logo.png', 10, 6, 30, 0, '', '')
+#3 /var/www/html/cakephp/app/View/Pdf/my_pdftk_view.ctp(33): FPDF_TPL->Image('logo.png', 10, 6, 30)
+#4 /var/www/html/cakephp/lib/Cake/View/View.php(961): include('/var/www/html/c...')
+#5 /var/www/html/cakephp/lib/Cake/View/View.php(923): View->_evaluate('/var/www/html/c...', Array)
+#6 /var/www/html/cakephp/lib/Cake/View/View.php(473): View->_render('/var/www/html/c...')
+#7 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(960): View->render('/Pdf/my_pdftk_v...', NULL)
+#8 /var/www/html/cakephp/app/Controller/BusinessesController.php(46): Controller->render('/Pdf/my_pdftk_v...')
+#9 [internal function]: BusinessesController->create_pdftk()
+#10 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BusinessesController), Array)
+#11 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BusinessesController), Object(CakeRequest))
+#13 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}

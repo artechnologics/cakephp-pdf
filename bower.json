@@ -1,0 +1,23 @@
+{
+  "name": "sampleapp",
+  "authors": [
+    "rohit <artechnologics@gmail.com>"
+  ],
+  "description": "a sample app for grunt n bower",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "grunt",
+    "bower"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
